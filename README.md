@@ -161,6 +161,5 @@ Bot: Hypertension often has no noticeable symptoms, but persistent high blood pr
 ```
 
 📄 License
-
-© 2025 Eli Lilly Digital Health — For internal and research use only.
+For internal and research use only.
 Unauthorized redistribution or commercial use is prohibited.

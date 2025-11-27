@@ -1,7 +1,7 @@
-# # main.py
-# import warnings
-# warnings.filterwarnings("ignore", message="The `dict` method is deprecated; use `model_dump` instead.")
-# warnings.filterwarnings("ignore", category=UserWarning)
+# main.py
+import warnings
+warnings.filterwarnings("ignore", message="The `dict` method is deprecated; use `model_dump` instead.")
+warnings.filterwarnings("ignore", category=UserWarning)
 
 # import os
 # import glob
@@ -124,4 +124,4 @@ async def chat_with_ai(input_data: ChatInput):
         print(e)
         # Properly handle potential API errors
         raise HTTPException(status_code=500, detail=str(e))
-        # return {"bot_response": e}
+        return {"bot_response": e}
